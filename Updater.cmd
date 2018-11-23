@@ -12,7 +12,7 @@ cd ..
 xcopy /s /y /i "dependencies\windows_64bit\dependencies" "stk-code\dependencies-64bit"
 cd stk-code\build
 cmake.exe ..	
-cd ..\..
+cd ..
 
 REM TODO: check if dependencies are uptodate and only copy and cmake if not
 cd ..\dependencies
