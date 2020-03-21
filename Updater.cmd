@@ -3,7 +3,7 @@ svn update
 
 cd ..\stk-code
 git checkout master
-git pull upstream master
+git pull origin master
 
 
 cd ..\dependencies
